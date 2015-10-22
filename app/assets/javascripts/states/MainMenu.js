@@ -1,0 +1,103 @@
+// var GameMenu = function() {};
+
+
+// GameMenu.prototype = {
+
+//   menuConfig: {
+//     startY: 260,
+//     startX: 30
+//   },
+
+//   init: function () {
+//     this.titleText = game.make.text(game.world.centerX, 100, "Game Title", {
+//       font: 'bold 60pt TheMinion',
+//       fill: '#FDFFB5',
+//       align: 'center'
+//     });
+//     this.titleText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 5);
+//     this.titleText.anchor.set(0.5);
+//     this.optionCount = 1;
+//   },
+
+//   create: function () {
+
+//     if (music.name !== "dangerous" && playMusic) {
+//       music.stop();
+//       music = game.add.audio('dangerous');
+//       music.loop = true;
+//       music.play();
+//     }
+//     game.stage.disableVisibilityChange = true;
+//     game.add.sprite(0, 0, 'menu-bg');
+//     game.add.existing(this.titleText);
+
+//     this.addMenuOption('Start', function () {
+//       game.state.start("Game");
+//     });
+//     this.addMenuOption('Options', function () {
+//       game.state.start("Options");
+//     });
+//     this.addMenuOption('Credits', function () {
+//       game.state.start("Credits");
+//     });
+//   }
+// };
+
+// Phaser.Utils.mixinPrototype(GameMenu.prototype, mixins);
+
+
+
+// 'use strict';
+
+// JetpackPug.MainMenu = function (game) {
+//   this.playButton = null;
+//   this.player = null;
+//   this.music = null;
+//   this.map = null;
+//   this.layer = null;
+//   this.background = null;
+// };
+
+// JetpackPug.MainMenu.prototype = {
+
+//   create: function () {
+
+//     this.background = this.game.add.tileSprite(0,0,this.game.width, 512, 'background');
+//     this.background.autoScroll(-100,0);
+
+//     this.midground = this.game.add.tileSprite(0,470,this.game.width, this.game.height - 460 - 73, 'midground');
+//     this.midground.autoScroll(-100,0);
+
+//     this.ground = this.game.add.tileSprite(0,this.game.height - 73, this.game.width, 73, 'ground');
+//     this.ground.autoScroll(-400,0);
+
+
+//     this.player = this.add.sprite(200, this.game.world.height/2, 'player');
+//     this.player.anchor.setTo(0.5);
+//     this.player.scale.setTo(0.3);
+//     this.player.animations.add('fly', [0,1,2,3,2,1]);
+//     this.player.animations.play('fly', 8, true);
+    
+//     this.game.add.tween(this.player).to({y: this.player.y - 16}, 500, Phaser.Easing.Linear.NONE, true, 0, 100, true);
+
+
+
+
+//     this.titleSprite = this.game.add.image(this.game.width/2, this.game.height/2, 'splash');
+//     this.titleSprite.anchor.setTo(0.5, 0.5);
+
+
+//     this.titleSprite.fixedToCamera = true;
+
+//     this.startText = this.game.add.bitmapText(0,0, 'minecraftia','tap to start', 32);
+//     this.startText.x = this.game.width / 2  - this.startText.textWidth / 2;
+//     this.startText.y = this.titleSprite.y + this.titleSprite.height / 2;
+
+//   },
+//   update: function () {
+//     if(this.game.input.activePointer.justPressed()) {
+//       this.game.state.start('Game');
+//     }
+//   }
+
+// };

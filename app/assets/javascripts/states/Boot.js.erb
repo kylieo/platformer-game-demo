@@ -1,0 +1,50 @@
+// // Boot state sets up global configurations for the game and loads image assets to be displayed while the preloader is running.
+// // general game settings are defined, and the assets of the preloading screen are loaded (example the loading bar). Nothing is shown to the user.
+
+// 'use strict';
+
+// var Game = function() {
+//   this.music = null;
+// };
+
+// Game.Boot = function(game) {};
+
+// Game.Boot.prototype = {
+//   preload: function() {
+//     // Preload is the first thing to run when a state is instantiated
+//     // Here we load assets required for our preloader
+//     //this.load.image('stars', '<%= image_path "" %>');
+//     //this.load.image('preloaderBar', '<%= image_path "" %>');
+
+
+//   },
+//   create: function() {
+//     this.game.stage.backgroundColor = '#fff';
+    
+//     //  Set to 1 unless game needs multi touch
+//     this.input.maxPointers = 1;
+
+
+//     if (this.game.device.desktop) {
+//       //  Check whether user is playing on a desktop or mobile. If you have any desktop specific settings, they can go in here
+//       this.scale.pageAlignHorizontally = true; // so that game is played in the centre of the screen
+//     } else {
+//       //  Same goes for mobile settings.
+//       //  If playing on mobile this scales the game no lower than 480x260 and no higher than 1024x768"
+//       // Scaled to size of smallest iPhone to iPad
+
+//       this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+//       this.scale.minWidth = 568;
+//       this.scale.minHeight = 600;
+//       this.scale.maxWidth = 2048;
+//       this.scale.maxHeight = 1536;
+//       this.scale.forceLandscape = true;
+//       this.scale.pageAlignHorizontally = true;
+//       this.scale.setScreenSize(true);
+//     }
+
+//     //  By this point the preloader assets have loaded to the cache
+//     //  This starts the preloader state
+//     this.state.start('Preloader');
+//   }
+// };

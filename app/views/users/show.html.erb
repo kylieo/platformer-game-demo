@@ -1,0 +1,13 @@
+<div class="wrapper">
+
+<!-- 	<p id="notice"><%= notice %></p> -->
+
+	<div class="title"></div>
+
+	<% if @current_user %>
+	  <!-- SOMEONE IS ACTUALLY LOGGED IN -->
+
+	<!--   <%= @current_user.email %> -->
+	  <h2><%= (" Hi #{ @current_user.user_name } ") %></h2>
+	<% end %>
+</div>

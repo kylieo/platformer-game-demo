@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="64" backgroundcolor="#ecf5b8" nextobjectid="7">
+ <tileset firstgid="1" name="background1" tilewidth="1536" tileheight="832" tilecount="1">
+  <tile id="0">
+   <image width="1536" height="832" source="../../../../../../../Downloads/Maesai - Basic Pack/Backgrounds/64/Background-B.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="Items" tilewidth="64" tileheight="64" tilecount="20">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Items/Items-x64.png" width="320" height="256"/>
+ </tileset>
+ <tileset firstgid="22" name="Terrain" tilewidth="64" tileheight="64" tilecount="252">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Terrain/Terrain-x64.png" width="1152" height="896"/>
+ </tileset>
+ <tileset firstgid="274" name="Nature" tilewidth="64" tileheight="64" tilecount="104">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Nature/Nature-x64.png" width="832" height="512"/>
+ </tileset>
+ <tileset firstgid="378" name="Objects" tilewidth="64" tileheight="64" tilecount="135">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Objects/Objects-x64.png" width="960" height="576"/>
+ </tileset>
+ <tileset firstgid="513" name="Fausto" tilewidth="64" tileheight="64" tilecount="40">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Spritesheets/Characters/64/Fausto.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="553" name="Milo" tilewidth="64" tileheight="64" tilecount="40">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Spritesheets/Characters/64/Milo.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="593" name="Slime-Yellow" tilewidth="64" tileheight="64" tilecount="4">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Spritesheets/Characters/64/Slime-Yellow.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="597" name="Slime-Green" tilewidth="64" tileheight="64" tilecount="4">
+  <image source="../../../../../../../Downloads/Maesai - Basic Pack/Spritesheets/Characters/64/Slime-Green.png" width="256" height="64"/>
+ </tileset>
+ <layer name="House" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJwkAYBeDcCjqA2ruAjuwGgr0OkIi9zmDtH/RQAhYR4wX8PniQ4orwHsdVFQAAAAAAAAAAlLFPpf/gf01euq/ju4kcIyebFLHu9H5J91zt8XPt3ZhGlrofzKZHt+3dWERW9hjMtke3szg7f+Sd/KY03pSPHL7c2Tk9s7PHKOQ93JHxyJsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB03QD+Ehaw
+  </data>
+ </layer>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJwjAUBuB0GUVxAW9Weu0UBUWcQewEOoC4a9+hhx4q2kKt4PdBSAIJhP+9pAQAAAAAAAAAAL/nkKV0inHO5n4JfN81+v6i9/lzmwF/YOG/TG7bZryPuejkvYt12dmv1GK0Y2T3fJNfPjDfuj1/f3GvUq9JLT/Md60Os7pF/g81AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAejQlwAhG
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1j9OwlAAx/H2FI4mLp5B3Iy66coV4A7ewMXEzQto/LuiiaM9AXge34ttfHmBqimmwX4+yTcEKBT4DbQoAAAAAAAAAABgc52VfX+CYbgN3YXuQw8rno+Pn9ujV4/ZfXt0Nws9J710eC97dHcdekq66fBe9ljuoKfz2qNdust2aCtrZw3neEs2uBr4HqPQfl3bbxuPOwwdZx1lr4v/Ja/F5/9Im7L+3eMW6R6jX3z2/2A3a5I0Dp2ETr85Lm9cvyZaJC3bpLmemte3cZcq2WSylm+5Ofaypiv66XFpl6H3pGaT5prrovwq7lElt1W9x/RPvz0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEP3AYj/Ods=
+  </data>
+ </layer>
+ <layer name="foreground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKACEMBcB4Yz94tT3f2thYiJ0WM5A+8OAlEQAAAAAAAAAAALympYiebm8BsFdGT9UxWV/BEbf9PfPn+mQDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsfjEiBFg=
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="3" name="Lever" gid="3" x="1724" y="1914" width="64" height="64"/>
+  <object id="4" name="Spawn" x="257" y="1792" width="64" height="64"/>
+  <object id="6" x="2562" y="1453" width="64" height="402"/>
+ </objectgroup>
+</map>
