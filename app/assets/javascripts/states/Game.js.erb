@@ -31,6 +31,116 @@ function Preload(){
     this.load.image('background_mountains', '<%= image_path "Background-B Copy.png" %>');
     this.load.image('background_woods', '<%= image_path "Background-B-Woods.png" %>');
 
+    // load terrain tiles
+    this.load.image('block_Liquid-Water-A-01', "<%= image_path 'Liquid-Water-A-01.png' %>");
+    this.load.image('block_Liquid-Water-A-02', "<%= image_path 'Liquid-Water-A-02.png' %>");
+    this.load.image('block_Liquid-Lava-01', "<%= image_path 'Liquid-Lava-01.png" %>');
+    this.load.image('block_Terrain-Earth-C-06', "<%= image_path 'Terrain-Earth-C-06.png' %>");
+    this.load.image('block_Terrain-Earth-C-10', "<%= image_path 'Terrain-Earth-C-10.png' %>");
+    this.load.image('block_Terrain-Earth-B-02', "<%= image_path 'Terrain-Earth-B-02.png' %>");
+    this.load.image('block_Terrain-Earth-B-01', "<%= image_path 'Terrain-Earth-B-01.png' %>");
+    this.load.image('block_Terrain-Earth-A-25', "<%= image_path 'Terrain-Earth-A-25.png' %>");
+    this.load.image('block_Terrain-Earth-C-24', "<%= image_path 'Terrain-Earth-C-24.png' %>");
+    this.load.image('block_Terrain-Earth-C-01', "<%= image_path 'Terrain-Earth-C-01.png' %>");
+    this.load.image('block_Terrain-Earth-C-03', "<%= image_path 'Terrain-Earth-C-03.png' %>");
+    this.load.image('block_Terrain-Earth-B-05', "<%= image_path 'Terrain-Earth-B-05.png' %>");
+    this.load.image('block_Terrain-Earth-B-23', "<%= image_path 'Terrain-Earth-B-23.png' %>");
+    this.load.image('block_Terrain-Earth-A-22', "<%= image_path 'Terrain-Earth-A-22.png' %>");
+    this.load.image('block_Terrain-Earth-A-01', "<%= image_path 'Terrain-Earth-A-01.png' %>");
+    this.load.image('block_Terrain-Earth-B-24', "<%= image_path 'Terrain-Earth-B-24.png' %>");
+    this.load.image('block_Terrain-Stone-B-02', "<%= image_path 'Terrain-Stone-B-02.png' %>");
+    this.load.image('block_Terrain-Stone-B-01', "<%= image_path 'Terrain-Stone-B-01.png' %>");
+    this.load.image('block_Terrain-Stone-B-03', "<%= image_path 'Terrain-Stone-B-03.png' %>");
+    this.load.image('block_Terrain-Stone-A-06', "<%= image_path 'Terrain-Stone-A-06.png' %>");
+    this.load.image('block_Terrain-Stone-A-20', "<%= image_path 'Terrain-Stone-A-20.png' %>");
+    this.load.image('block_Terrain-Stone-A-21', "<%= image_path 'Terrain-Stone-A-21.png' %>");
+    this.load.image('block_Terrain-Stone-B-19', "<%= image_path 'Terrain-Stone-B-19.png' %>");
+    this.load.image('block_Terrain-Stone-B-06', "<%= image_path 'Terrain-Stone-B-06.png' %>");
+    this.load.image('block_Terrain-Stone-B-10', "<%= image_path 'Terrain-Stone-B-10.png' %>");
+    this.load.image('block_Terrain-Stone-A-14', "<%= image_path 'Terrain-Stone-A-14.png' %>");
+    this.load.image('block_Terrain-Stone-A-15', "<%= image_path 'Terrain-Stone-A-15.png' %>");
+    this.load.image('block_Terrain-Stone-A-16', "<%= image_path 'Terrain-Stone-A-16.png' %>");
+    this.load.image('block_Terrain-Stone-A-17', "<%= image_path 'Terrain-Stone-A-17.png' %>");
+    this.load.image('block_Terrain-Stone-A-18', "<%= image_path 'Terrain-Stone-A-18.png' %>");
+    this.load.image('block_Terrain-Stone-D-01', "<%= image_path 'Terrain-Stone-D-01.png' %>");
+    this.load.image('block_Terrain-Stone-D-02', "<%= image_path 'Terrain-Stone-D-02.png' %>");
+    this.load.image('block_Terrain-Stone-D-03', "<%= image_path 'Terrain-Stone-D-03.png' %>");
+
+    // load nature tiles
+    this.load.image('block_Nature-Rock-A-01', "<%= image_path 'Nature-Rock-A-01.png' %>");
+    this.load.image('block_Nature-Bush-A-01', "<%= image_path 'Nature-Bush-A-01.png' %>");
+    this.load.image('block_Nature-Tree-C-04', "<%= image_path 'Nature-Tree-C-04.png' %>");
+    this.load.image('block_Nature-Tree-B-07', "<%= image_path 'Nature-Tree-B-07.png' %>");
+    this.load.image('block_Nature-Tree-B-04', "<%= image_path 'Nature-Tree-B-04.png' %>");
+    this.load.image('block_Nature-Tree-B-06', "<%= image_path 'Nature-Tree-B-06.png' %>");
+    this.load.image('block_Nature-Tree-B-10', "<%= image_path 'Nature-Tree-B-10.png' %>");
+    this.load.image('block_Nature-Tree-C-06', "<%= image_path 'Nature-Tree-C-06.png' %>");
+    this.load.image('block_Nature-Tree-B-01', "<%= image_path 'Nature-Tree-B-01.png' %>");
+    this.load.image('block_Nature-Tree-B-02', "<%= image_path 'Nature-Tree-B-02.png' %>");
+    this.load.image('block_Nature-Tree-B-03', "<%= image_path 'Nature-Tree-B-03.png' %>");
+    this.load.image('block_Nature-Bush-A-02', "<%= image_path 'Nature-Bush-A-02.png' %>");
+    this.load.image('block_Nature-Bush-A-04', "<%= image_path 'Nature-Bush-A-04.png' %>");
+    this.load.image('block_Nature-Fungus-A-03', "<%= image_path 'Nature-Fungus-A-03.png' %>");
+    this.load.image('block_Nature-Liana-01', "<%= image_path 'Nature-Liana-01.png' %>");
+    this.load.image('block_Nature-Liana-04', "<%= image_path 'Nature-Liana-04.png' %>");
+    this.load.image('block_Nature-Grass-04', "<%= image_path 'Nature-Grass-04.png' %>");
+    this.load.image('block_Nature-Grass-02', "<%= image_path 'Nature-Grass-02.png' %>");
+    this.load.image('block_Nature-Fungus-A-05', "<%= image_path 'Nature-Fungus-A-05.png' %>");
+    this.load.image('block_Nature-Fungus-A-02', "<%= image_path 'Nature-Fungus-A-02.png' %>");
+    this.load.image('block_Nature-Grass-03', "<%= image_path 'Nature-Grass-03.png' %>");
+    this.load.image('block_Nature-Fungus-A-06', "<%= image_path 'Nature-Fungus-A-06.png' %>");
+    this.load.image('block_Nature-Rock-B-02', "<%= image_path 'Nature-Rock-B-02.png' %>");
+    this.load.image('block_Nature-Rock-B-03', "<%= image_path 'Nature-Rock-B-03.png' %>");
+    this.load.image('block_Nature-Rock-B-04', "<%= image_path 'Nature-Rock-B-04.png' %>");
+    this.load.image('block_Nature-Rock-B-05', "<%= image_path 'Nature-Rock-B-05.png' %>");
+    this.load.image('block_Nature-Rock-A-02', "<%= image_path 'Nature-Rock-A-02.png' %>");
+    this.load.image('block_Nature-Rock-A-04', "<%= image_path 'Nature-Rock-A-04.png' %>");
+    this.load.image('block_Nature-Rock-A-06', "<%= image_path 'Nature-Rock-A-06.png' %>");
+
+    // load item tiles
+    this.load.image('block_Items-Chest-01', "<%= image_path 'Items-Chest-01.png' %>");
+    this.load.image('block_Items-Chest-02', "<%= image_path 'Items-Chest-02.png' %>");
+    this.load.image('block_Items-Coin-A', "<%= image_path 'Items-Coin-A.png' %>");
+    this.load.image('block_Items-Crystal-A', "<%= image_path 'Items-Crystal-A.png' %>");
+    this.load.image('block_Items-Key-A', "<%= image_path 'Items-Key-A.png' %>");
+    this.load.image('block_Items-Lock-01', "<%= image_path 'Items-Lock-01.png' %>");
+    this.load.image('block_Items-Orange', "<%= image_path 'Items-Orange.png' %>");
+    this.load.image('block_Items-Star-A', "<%= image_path 'Items-Star-A.png' %>");
+    this.load.image('block_Objects-Switch-10', "<%= image_path 'Objects-Switch-10.png' %>");
+    this.load.image('block_Objects-Switch-12', "<%= image_path 'Objects-Switch-12.png' %>");
+
+     // load object tiles
+    this.load.image('block_Buildings-Lighthouse-01', "<%= image_path 'Buildings-Lighthouse-01.png' %>");
+    this.load.image('block_Building-Lighthouse-02', "<%= image_path 'Building-Lighthouse-02.png' %>");
+    this.load.image('block_Building-Lighthouse-03', "<%= image_path 'Building-Lighthouse-03.png' %>");
+    this.load.image('block_Objects-Door-B-01', "<%= image_path 'Objects-Door-B-01.png' %>");
+    this.load.image('block_Objects-Door-A-01', "<%= image_path 'Objects-Door-A-01.png' %>");
+    this.load.image('block_Objects-Door-A-03', "<%= image_path 'Objects-Door-A-03.png' %>");
+    this.load.image('block_Objects-Window-A-03', "<%= image_path 'Objects-Window-A-03.png' %>");
+    this.load.image('block_Objects-Door-A-04', "<%= image_path 'Objects-Door-A-04.png' %>");
+    this.load.image('block_Objects-Window-B-02', "<%= image_path 'Objects-Window-B-02.png' %>");
+    this.load.image('block_Objects-Pot-01', "<%= image_path 'Objects-Pot-01.png' %>");
+    this.load.image('block_Buildings-House-A-01', "<%= image_path 'Buildings-House-A-01.png' %>");
+    this.load.image('block_Buildings-House-A-03', "<%= image_path 'Buildings-House-A-03.png' %>");
+    this.load.image('block_Buildings-House-A-02', "<%= image_path 'Buildings-House-A-02.png' %>");
+    this.load.image('block_Buildings-House-A-04', "<%= image_path 'Buildings-House-A-04.png' %>");
+    this.load.image('block_Buildings-House-A-05', "<%= image_path 'Buildings-House-A-05.png' %>");
+    this.load.image('block_Buildings-House-A-06', "<%= image_path 'Buildings-House-A-06.png' %>");
+    this.load.image('block_Buildings-House-A-10', "<%= image_path 'Buildings-House-A-10.png' %>");
+    this.load.image('block_Buildings-House-A-11', "<%= image_path 'Buildings-House-A-11.png' %>");
+    this.load.image('block_Objects-Fence-B-01', "<%= image_path 'Objects-Fence-B-01.png' %>");
+    this.load.image('block_Object-Box-A-01', "<%= image_path 'Object-Box-A-01.png' %>");
+    this.load.image('block_Object-Box-A-02', "<%= image_path 'Object-Box-A-02.png' %>");
+    this.load.image('block_Objects-Stairs-01', "<%= image_path 'Objects-Stairs-01.png' %>");
+    this.load.image('block_Objects-Stairs-02', "<%= image_path 'Objects-Stairs-02.png' %>");
+    this.load.image('block_Objects-Stairs-03', "<%= image_path 'Objects-Stairs-03.png' %>");
+
+
+
+
+
+
+
     // load character spritesheets
     this.load.spritesheet('Fausto', '<%= image_path "Fausto.png" %>', 64, 64, 37);
     this.load.spritesheet('Milo', '<%= image_path "Milo.png" %>', 64, 64, 37);
